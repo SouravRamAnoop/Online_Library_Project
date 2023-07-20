@@ -42,3 +42,6 @@ def change_password(request):
         form=PasswordChangeForm(user=request.user)
     args={'form':form}
     return render(request,'change_password.html',args)
+
+def goto_admin(request):
+    return redirect('/admin/')
