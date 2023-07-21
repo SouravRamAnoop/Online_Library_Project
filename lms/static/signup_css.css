@@ -7,8 +7,6 @@ html {
     display:flex;
     justify-content: center;
     align-items: center;
-    background-image: url('https://static01.nyt.com/images/2017/05/11/t-magazine/bookstore-slide-2MCD/bookstore-slide-2MCD-superJumbo.jpg?quality=75&auto=webp');
-    background-size:contain;
   }
 
   .card-body .heading{
